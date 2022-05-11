@@ -1,0 +1,11 @@
+# Anything that goes here is made globally for all profiles
+spring:
+  application:
+    name: postCrud
+
+---
+#Anything that goes here is made specifically for the Local's profile
+spring:
+  profiles: local, default
+server:
+  port: 8080
